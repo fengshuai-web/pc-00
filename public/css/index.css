@@ -1,0 +1,225 @@
+#tu{
+    width:1680px;
+    height:873px;
+}
+.my_tu_margin{
+    margin:-113px 126px;
+}
+#guding{
+    background:#fff;
+    padding-bottom:30px;
+    margin-top:-7px;
+}
+#zhanshi{
+    position:relative;
+    width:1024px;height:1024px;
+    margin:-160px auto;
+    padding-left:21px;
+    background-color:#fff;
+}
+.z2{
+    width:657px;height:328px;
+    background-image:url(images/01-index/bigsofa1.jpg);
+    background-repeat:no-repeat;
+    background-size:657px 328px;
+}
+.z3{
+    width:657px;height:328px;
+    background-image:url(images/01-index/bigstool1.jpg);
+    background-repeat:no-repeat;
+    background-size:658px 328px;
+}
+.z4{
+    width:657px;height:328px;
+    background-image:url(images/01-index/desk1.jpg);
+    background-repeat:no-repeat;
+    background-size:658px 328px;
+}
+.e1{
+    width:327px;height:327px;
+    background-image:url(images/01-index/furniture.jpg);
+    background-repeat:no-repeat;
+    background-size:327px 327px;
+}
+.e2{
+    width:327px;height:654px;
+    background-image:url(images/01-index/furniture2.jpg);
+    background-repeat:no-repeat;
+    background-size:327px 654px;
+}
+.zz,.ze{
+    float:left;
+}
+.row{
+    padding: 0px;
+    width:1024px;height:20px;
+}
+/*			关于我们*/
+.about_ue{
+    width:100%;
+    height:172px;
+    background-color:#f6f6f6;
+    margin-top:161px;
+    position:relative;
+}
+.about_ue a{
+    position:absolute;
+    top:35%;left:44%;
+    padding:15px 50px;
+    list-style:none;
+    border:2px solid #000;
+    outline:none;
+    font-family: '微软雅黑';
+    font-size: 14px;
+    padding: 12px 45px;
+    border: 1px solid rgb(186,186,186);
+    background-color: transparent;
+    color: rgb(145,145,145);
+}
+/*			商品列表*/
+.list{
+    text-align:center;
+    padding-top:50px;
+
+}
+.list p{
+    padding-bottom:10px;
+    font:24px "微软雅黑",normal;
+    font-weight:bold;
+    color:#222;
+}
+.list-t{
+    border:1px solid #ddd;
+    width:1024px;height:43px;
+    margin:30px auto;
+
+}
+.list-t ul{
+    list-style:none;
+    padding-top:10px;
+}
+.list-t ul li a{
+    margin:0 18px;
+    font-size:14px;
+    color:#808080;
+}
+.p-box{
+    text-align:center;
+}
+.p-box img{
+    width:256px;height:256px;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    width:2%;height:4%;
+    top:40%;
+    right:0.2%;
+    border-radius: 0.25rem;
+    background-color:#959593;
+}
+.carousel-control-prev{
+    margin-left:0.2%;
+}
+.carousel-indicators li{
+    width:0.6rem;height:0.6rem;
+    border-radius: 50%;
+    background-color:antiquewhite;
+    margin:0 0.3rem;
+}
+.carousel-indicators .active{
+    background-color:orange;
+}
+.carousel-indicators{
+    bottom:0%;
+    right:-92%;
+}
+.shou{
+    cursor:pointer;
+}
+.list-t ul li a{
+    margin-top:10px;
+}
+.img_x img{
+    width:256px;height:256px;
+
+}
+.jiaju{
+    margin:0 auto;
+}
+.my_ge{
+    margin-top:100px;
+}
+.my_av{
+    padding:80px 0;
+}
+.my_war{
+    color:#ff6f00;
+}
+.my_shehua{
+    color:aoaoao;
+}
+
+.jiaju div a{
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(136,136,136);
+    text-align: center;
+    font-family: "宋体";
+    margin-bottom: 6px;
+}
+.jiaju div p{
+    font-size: 22px;
+    font-weight: normal;
+    color: #191919;
+    font-family: Raleway;
+}
+.my_ge a{
+    color:#000;
+}
+.my_gao{
+    width:100%;
+    height:357px;
+    position:relative;
+
+}
+.MY_juzhong{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-200px,-50px);
+}
+.my_zuo{
+    margin:100px 352px;
+}
+.my_zhuce{
+    margin-top:100px ;
+    margin-left: 172px;
+}
+.img_1{
+    transition:0.9s;
+}
+.img_1:hover{
+
+    transform: scale(1.2);
+}
+.MY_g{
+    height:1100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+	</head>
+	<style>
+	*{
+		margin:0;padding:0;
+	}
+		#d1{
+			width:100%;
+			height:900px;
+			margin:0 auto;
+			background-image:url(bg3.jpg);
+			background-repeat:no-repeat;
+			background-size:100% 900px;
+		}
+		#d2{
+			width:518px;
+			border:1px solid #E8E8E8;
+			background-color:rgba(255,255,255,0.8);
+			padding:0 38px 18px;
+			margin:40px auto 0;
+		}
+		input.uname,.upwd{
+			width:445px;
+			height:40px;
+			border:0;outline:0;
+			background-image:url(tt1.png);
+			background-repeat:no-repeat;
+			font-size:15px;
+			padding-left:55px;
+			background-position:2% center;
+			margin:-13px auto 25px;
+		}
+		.upwd{
+			background-image:url(tt2.png);
+		}
+		#d2 .reg {
+			padding:0 0 0 250px;
+		}
+		#pwd{
+			padding:0 0 0 340px;
+		}
+		#login{
+			width:500px;
+			height:40px;
+			font-size:16px;
+			border-radius:3px;
+			text-align:center;
+			background-color:#FF6F00;
+			color:#fff;
+			border:0px;outline:0;
+		}
+		#d1 #d2 #vip{
+			font-size:18px;
+			margin:36px auto 51px;
+		}
+		#d1 #d2 table{
+			border-spacing:10px 10px;
+		}
+		a{
+			text-decoration:none;
+		}
+		#d2 #regmin{
+			background-color:#ff9900;
+			border:0px;outline:0;
+			color:#fff;
+			border-radius:3px;
+			font-size:15px;
+			padding:0 6px;
+		}
+	</style>
+	<body>	
+		<div id="d1">
+		<table></table>
+			<div id="d2">
+				<table >
+					<tr >
+						<td colspan="2" align="center" ><p id="vip">会员登录</p></td>
+					</tr>
+					<tr >
+						<td><p id="zhanghu">用户账户</p>  </td>
+						<td><div class="reg">还没有账号？<a href="" id="regmin">5秒注册</a></div></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input type="text" class="uname" placeholder="请输入用户名/手机号/邮箱">
+						</td>
+							
+						
+					</tr>
+					<tr>
+						<td>登录密码 
+						</td>
+						<td id="pwd">
+						<a href="">忘记密码？</a>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input type="text" class="upwd" placeholder="请输入登录密码">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<button id="login">登录</button>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body >
+</html>
